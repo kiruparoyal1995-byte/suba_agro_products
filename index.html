@@ -1,0 +1,633 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="SUBA AGRO agricultural products and bio solutions for farmers and growers.">
+
+    <title>SUBA AGRO | Growing Better Together</title>
+
+    <!-- Connect the CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Announcement bar -->
+    <div class="announcement">
+        Natural Agricultural Solutions for Better Farming
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-inner">
+
+            <a href="#home" class="brand">
+                <span class="brand-icon">✦</span>
+                <span>SUBA <strong>AGRO</strong></span>
+            </a>
+
+            <nav class="navigation" aria-label="Main navigation">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#products">Products</a>
+                <a href="#benefits">Why SUBA</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <a href="#contact" class="button button-primary header-button">
+                Contact Us ↗
+            </a>
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Hero section -->
+        <section class="hero" id="home">
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+                    <span class="eyebrow">
+                        GROW NATURALLY • FARM SMARTER
+                    </span>
+
+                    <h1>
+                        Growing Better.<br>
+                        <span>Living Greener.</span>
+                    </h1>
+
+                    <p>
+                        Discover agricultural products and biological
+                        solutions designed to support farmers, healthy
+                        crops and sustainable farming practices.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#products"
+                           class="button button-primary">
+                            Explore Products →
+                        </a>
+
+                        <a href="#about"
+                           class="button button-outline">
+                            Discover SUBA AGRO
+                        </a>
+                    </div>
+
+                    <div class="hero-note">
+                        <span class="note-icon">✓</span>
+                        Product information and farming support
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="hero-circle"></div>
+
+                    <div class="hero-label">
+                        <span>🌱</span>
+                        <div>
+                            <strong>Grow with Nature</strong>
+                            <small>Solutions for modern farming</small>
+                        </div>
+                    </div>
+
+                    <div class="hero-leaf leaf-one">✦</div>
+                    <div class="hero-leaf leaf-two">✦</div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Benefits strip -->
+        <section class="benefits-strip" id="benefits">
+            <div class="container benefits-grid">
+
+                <div class="benefit-item">
+                    <span class="benefit-icon">🌿</span>
+                    <div>
+                        <h3>Bio Solutions</h3>
+                        <p>Biological product options</p>
+                    </div>
+                </div>
+
+                <div class="benefit-item">
+                    <span class="benefit-icon">🌱</span>
+                    <div>
+                        <h3>Crop Care</h3>
+                        <p>Solutions for crop management</p>
+                    </div>
+                </div>
+
+                <div class="benefit-item">
+                    <span class="benefit-icon">🤝</span>
+                    <div>
+                        <h3>Farmer Support</h3>
+                        <p>Product enquiries and assistance</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- About section -->
+        <section class="about section" id="about">
+            <div class="container about-grid">
+
+                <div class="about-visual">
+                    <div class="about-symbol">🌾</div>
+                    <span>BETTER FARMING STARTS HERE</span>
+                </div>
+
+                <div class="about-content">
+                    <span class="eyebrow">ABOUT SUBA AGRO</span>
+
+                    <h2>
+                        Supporting your journey
+                        towards <span>better farming.</span>
+                    </h2>
+
+                    <p>
+                        SUBA AGRO brings together a range of agricultural
+                        products for farmers and growers. Our goal is to
+                        help you explore product options and find relevant
+                        information for your farming needs.
+                    </p>
+
+                    <a href="#products" class="text-link">
+                        Explore our product range →
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Products section -->
+        <section class="products section" id="products">
+            <div class="container">
+
+                <div class="section-heading">
+                    <div>
+                        <span class="eyebrow">OUR PRODUCT RANGE</span>
+                        <h2>Thoughtful solutions for <span>growing farms.</span></h2>
+                        <p>
+                            Explore our featured products. Contact us
+                            for current prices, availability and usage information.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Search field -->
+                <div class="search-wrapper">
+                    <span aria-hidden="true">⌕</span>
+                    <input
+                        type="search"
+                        id="productSearch"
+                        placeholder="Search agricultural products..."
+                        aria-label="Search products">
+                </div>
+
+                <!-- Category filters -->
+                <div class="filter-list" aria-label="Filter products">
+                    <button class="filter-button active"
+                            type="button"
+                            data-filter="all">
+                        All Products
+                    </button>
+
+                    <button class="filter-button"
+                            type="button"
+                            data-filter="bio">
+                        Bio Solutions
+                    </button>
+
+                    <button class="filter-button"
+                            type="button"
+                            data-filter="microbial">
+                        Microbial Cultures
+                    </button>
+
+                    <button class="filter-button"
+                            type="button"
+                            data-filter="crop">
+                        Crop Care
+                    </button>
+                </div>
+
+                <!-- Product cards -->
+                <div class="product-grid" id="productGrid">
+
+                    <!-- Product 1 -->
+                    <article class="product-card"
+                             data-category="bio"
+                             data-name="Aman Bio Cocktail">
+
+                        <div class="product-image-container">
+                            <img
+                                src="images/Aman Bio Cocktail Bottle Mockup.jpg.png"
+                                alt="Aman Bio Cocktail agricultural product"
+                                loading="lazy">
+                            <span class="product-tag">Bio Solution</span>
+                        </div>
+
+                        <div class="product-info">
+                            <span class="product-category">BIO SOLUTIONS</span>
+
+                            <h3>Aman Bio Cocktail</h3>
+
+                            <p>
+                                Explore product details and ask us about
+                                availability and recommended applications.
+                            </p>
+
+                            <a class="product-link"
+                               href="#contact"
+                               data-product="Aman Bio Cocktail">
+                                Ask about product <span>↗</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Product 2 -->
+                    <article class="product-card"
+                             data-category="microbial"
+                             data-name="Efficient Microbes Mother Culture">
+
+                        <div class="product-image-container">
+                            <img
+                                src="images/Gaia Nexus Efficient Microbes Bottle.jpg.png"
+                                alt="Efficient Microbes Mother Culture bottle"
+                                loading="lazy">
+                            <span class="product-tag">Microbial Culture</span>
+                        </div>
+
+                        <div class="product-info">
+                            <span class="product-category">MICROBIAL CULTURES</span>
+
+                            <h3>Efficient Microbes Mother Culture</h3>
+
+                            <p>
+                                Biological inoculum product. Contact us
+                                for product specifications and application guidance.
+                            </p>
+
+                            <a class="product-link"
+                               href="#contact"
+                               data-product="Efficient Microbes Mother Culture">
+                                Ask about product <span>↗</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Product 3 -->
+                    <article class="product-card"
+                             data-category="microbial"
+                             data-name="Biological Waste Decomposer">
+
+                        <div class="product-image-container">
+                            <img
+                                src="images/Gaia Nexus Biological Waste Decomposer Bottle.png"
+                                alt="Biological Waste Decomposer bottle"
+                                loading="lazy">
+                            <span class="product-tag">Bio Inoculum</span>
+                        </div>
+
+                        <div class="product-info">
+                            <span class="product-category">MICROBIAL CULTURES</span>
+
+                            <h3>Biological Waste Decomposer</h3>
+
+                            <p>
+                                Learn about this biological product and
+                                its intended applications before purchase.
+                            </p>
+
+                            <a class="product-link"
+                               href="#contact"
+                               data-product="Biological Waste Decomposer">
+                                Ask about product <span>↗</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Product 4: Add the correct image path -->
+                    <article class="product-card"
+                             data-category="microbial"
+                             data-name="NPK Consortia Liquid">
+
+                        <div class="product-image-container">
+                            <img
+                                src="images/Gaia Nexus Bacterial Culture Bottle.png"
+                                alt="NPK Consortia Liquid bottle"
+                                loading="lazy">
+                            <span class="product-tag">Liquid Culture</span>
+                        </div>
+
+                        <div class="product-info">
+                            <span class="product-category">MICROBIAL CULTURES</span>
+
+                            <h3>NPK Consortia Liquid</h3>
+
+                            <p>
+                                Contact us for verified product details,
+                                availability and application instructions.
+                            </p>
+
+                            <a class="product-link"
+                               href="#contact"
+                               data-product="NPK Consortia Liquid">
+                                Ask about product <span>↗</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Product 5: Add the correct image path -->
+                    <article class="product-card"
+                             data-category="crop"
+                             data-name="CropCare Verticillium lecanii">
+
+                        <div class="product-image-container">
+                            <img
+                                src="images/CropCare Bio-Pesticide Bottle.png"
+                                alt="CropCare Verticillium lecanii bottle"
+                                loading="lazy">
+                            <span class="product-tag">Crop Care</span>
+                        </div>
+
+                        <div class="product-info">
+                            <span class="product-category">CROP CARE</span>
+
+                            <h3>CropCare Verticillium lecanii</h3>
+
+                            <p>
+                                Ask about product specifications and
+                                suitable usage for your crop.
+                            </p>
+
+                            <a class="product-link"
+                               href="#contact"
+                               data-product="CropCare Verticillium lecanii">
+                                Ask about product <span>↗</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Product 6: Add the correct image path -->
+                    <article class="product-card"
+                             data-category="bio"
+                             data-name="Aman BioCocktail Plus">
+
+                        <div class="product-image-container">
+                            <img
+                                src="images/Aman BioCocktail Plus Bottle.png"
+                                alt="Aman BioCocktail Plus bottle"
+                                loading="lazy">
+                            <span class="product-tag">Bio Solution</span>
+                        </div>
+
+                        <div class="product-info">
+                            <span class="product-category">BIO SOLUTIONS</span>
+
+                            <h3>Aman BioCocktail Plus</h3>
+
+                            <p>
+                                Explore the cell-free extract product
+                                and request additional information.
+                            </p>
+
+                            <a class="product-link"
+                               href="#contact"
+                               data-product="Aman BioCocktail Plus">
+                                Ask about product <span>↗</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Search result message -->
+                    <p class="empty-state" id="emptyState" hidden>
+                        No matching products found. Try another search.
+                    </p>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section class="contact section" id="contact">
+            <div class="container contact-grid">
+
+                <div class="contact-content">
+                    <span class="eyebrow">LET'S CONNECT</span>
+
+                    <h2>Looking for the right agricultural product?</h2>
+
+                    <p>
+                        Tell us which product you are interested in and
+                        share your enquiry. Our team can respond with
+                        available product information.
+                    </p>
+
+                    <div class="contact-highlight">
+                        <span>🌱</span>
+                        <div>
+                            <strong>SUBA AGRO</strong>
+                            <p>Your agricultural product enquiry partner.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+
+                    <h3>Send an enquiry</h3>
+
+                    <label for="customerName">Your name</label>
+                    <input
+                        type="text"
+                        id="customerName"
+                        name="name"
+                        placeholder="Enter your name"
+                        required>
+
+                    <label for="customerPhone">Phone number</label>
+                    <input
+                        type="tel"
+                        id="customerPhone"
+                        name="phone"
+                        placeholder="Enter your phone number"
+                        required>
+
+                    <label for="productInterest">Product interested in</label>
+                    <input
+                        type="text"
+                        id="productInterest"
+                        name="product"
+                        placeholder="Enter product name"
+                        required>
+
+                    <label for="customerMessage">Your message</label>
+                    <textarea
+                        id="customerMessage"
+                        name="message"
+                        rows="4"
+                        placeholder="Write your enquiry"></textarea>
+
+                    <button type="submit"
+                            class="button button-primary form-button">
+                        Send Enquiry via WhatsApp ↗
+                    </button>
+
+                    <p class="form-note">
+                        Your enquiry will open in WhatsApp for you to send.
+                    </p>
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-inner">
+
+            <a href="#home" class="brand footer-brand">
+                <span class="brand-icon">✦</span>
+                <span>SUBA <strong>AGRO</strong></span>
+            </a>
+
+            <p>
+                Agricultural products and biological solutions
+                for farming communities.
+            </p>
+
+            <a href="#home" class="back-to-top">Back to top ↑</a>
+
+        </div>
+
+        <div class="container footer-bottom">
+            <p>© <span id="currentYear"></span> SUBA AGRO. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Product search, filters and enquiry behaviour -->
+    <script>
+        const productCards = [
+            ...document.querySelectorAll(".product-card")
+        ];
+
+        const searchInput = document.getElementById("productSearch");
+        const filterButtons = document.querySelectorAll(".filter-button");
+        const emptyState = document.getElementById("emptyState");
+
+        let activeCategory = "all";
+
+        function filterProducts() {
+            const searchTerm = searchInput.value
+                .trim()
+                .toLowerCase();
+
+            let visibleCount = 0;
+
+            productCards.forEach((card) => {
+                const name = card.dataset.name.toLowerCase();
+                const category = card.dataset.category;
+
+                const matchesSearch = name.includes(searchTerm);
+                const matchesCategory =
+                    activeCategory === "all" ||
+                    category === activeCategory;
+
+                const visible = matchesSearch && matchesCategory;
+
+                card.hidden = !visible;
+
+                if (visible) {
+                    visibleCount++;
+                }
+            });
+
+            emptyState.hidden = visibleCount !== 0;
+        }
+
+        searchInput.addEventListener("input", filterProducts);
+
+        filterButtons.forEach((button) => {
+            button.addEventListener("click", () => {
+                activeCategory = button.dataset.filter;
+
+                filterButtons.forEach((item) => {
+                    item.classList.toggle(
+                        "active",
+                        item === button
+                    );
+                });
+
+                filterProducts();
+            });
+        });
+
+        document.querySelectorAll("[data-product]").forEach((link) => {
+            link.addEventListener("click", () => {
+                document.getElementById("productInterest").value =
+                    link.dataset.product;
+            });
+        });
+
+        document.getElementById("currentYear").textContent =
+            new Date().getFullYear();
+
+        document.getElementById("contactForm").addEventListener(
+            "submit",
+            (event) => {
+                event.preventDefault();
+
+                const name =
+                    document.getElementById("customerName").value.trim();
+
+                const phone =
+                    document.getElementById("customerPhone").value.trim();
+
+                const product =
+                    document.getElementById("productInterest").value.trim();
+
+                const message =
+                    document.getElementById("customerMessage").value.trim();
+
+                /*
+                  Replace this placeholder with SUBA AGRO's
+                  WhatsApp number, including country code.
+                  Example format for India: 91XXXXXXXXXX
+                */
+                const businessWhatsApp = "91XXXXXXXXXX";
+
+                if (!/^\d{10,15}$/.test(businessWhatsApp)) {
+                    alert(
+                        "Please add the business WhatsApp number in the HTML first."
+                    );
+                    return;
+                }
+
+                const text =
+                    "SUBA AGRO Product Enquiry\n" +
+                    "Name: " + name + "\n" +
+                    "Phone: " + phone + "\n" +
+                    "Product: " + product + "\n" +
+                    "Message: " + message;
+
+                const whatsappURL =
+                    "https://wa.me/" +
+                    businessWhatsApp +
+                    "?text=" +
+                    encodeURIComponent(text);
+
+                window.open(whatsappURL, "_blank", "noopener");
+            }
+        );
+    </script>
+
+</body>
+</html>
