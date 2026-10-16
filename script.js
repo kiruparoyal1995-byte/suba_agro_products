@@ -46,7 +46,7 @@ document.querySelectorAll(".product-link").forEach(button => {
   button.addEventListener("click", () => {
     const product = button.dataset.product;
     const message = `வணக்கம் SUBA AGRO PRODUCTS, ${product} பற்றிய விலை மற்றும் விவரங்களைத் தெரிவிக்கவும்.`;
-    window.open(`https://wa.me/918838350300?text=${encodeURIComponent(message)}`, "_blank", "noopener");
+    window.open(`https://wa.me/919655171345?text=${encodeURIComponent(message)}`, "_blank", "noopener");
   });
 });
 
